@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddItemActivity">
+
+    <Button
+        android:id="@+id/Apple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addApple"
+        android:text="Apple"/>
+
+    <Button
+        android:id="@+id/Cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addCheese"
+        android:text="Cheese"/>
+
+    <Button
+        android:id="@+id/Rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addRice"
+        android:text="Rice"/>
+
+    <Button
+        android:id="@+id/Potato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addPotato"
+        android:text="Potato"/>
+
+    <Button
+        android:id="@+id/Corn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addCorn"
+        android:text="Corn"/>
+
+    <Button
+        android:id="@+id/Grape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addGrape"
+        android:text="Grape"/>
+
+    <Button
+        android:id="@+id/Banana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addBanana"
+        android:text="Banana"/>
+
+    <Button
+        android:id="@+id/Tomato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addTomato"
+        android:text="Tomato"/>
+
+    <Button
+        android:id="@+id/Cabbage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addCabbage"
+        android:text="Cabbage"/>
+
+    <Button
+        android:id="@+id/Chili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="addChili"
+        android:text="Chili"/>
+
+</LinearLayout>
